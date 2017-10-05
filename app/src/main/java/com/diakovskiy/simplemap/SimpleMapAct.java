@@ -40,6 +40,7 @@ public class SimpleMapAct extends FragmentActivity implements OnMapReadyCallback
 
         //2 commit
         //3 commit
+	//4 commit
 
 
         // Add a marker in Sydney and move the camera
