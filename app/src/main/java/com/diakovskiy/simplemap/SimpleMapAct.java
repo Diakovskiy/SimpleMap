@@ -38,7 +38,7 @@ public class SimpleMapAct extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-
+        //2 commit
 
 
 
