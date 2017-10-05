@@ -39,7 +39,7 @@ public class SimpleMapAct extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         //2 commit
-
+        //3 commit
 
 
         // Add a marker in Sydney and move the camera
@@ -47,7 +47,7 @@ public class SimpleMapAct extends FragmentActivity implements OnMapReadyCallback
 
         LatLng Kiev = new LatLng(50.4414212, 30.4976345);
 
-        mMap.addMarker(new MarkerOptions().position(Kiev).title("Marker in Kiev"));
+        mMap.addMarker(new MarkerOptions().position(Kiev).title("Marker in Kiev2"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Kiev));
         mMap.getUiSettings().setZoomControlsEnabled(true);
     }
